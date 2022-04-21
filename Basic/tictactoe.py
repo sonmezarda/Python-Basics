@@ -48,7 +48,7 @@ while not isFinished:
         else:
             print("Given number is already filled or not in table!\nPlease give different number!")
             continue 
-    if not "-" in inputs:
+    if  "-" not in inputs:
         isDraw = True
         isFinished = True
 
